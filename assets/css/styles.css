@@ -326,18 +326,18 @@ img{
   justify-self: center;
 }
 
-/*========== DECORATION ==========*/
-.decoration__container{
+/*========== TEAMBOX ==========*/
+.teambox__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   color: #FFA500;
 }
 
-.decoration__container:hover{
+.teambox__container:hover{
   color:#DA2535;
 }
 
 
-.decoration__data{
+.teambox__data{
   text-align: center;
   padding: 1rem 1rem 2rem;
   background-color: var(--container-color);
@@ -345,26 +345,26 @@ img{
   border-radius: 1rem;
 }
 
-.decoration__data:hover{
+.teambox__data:hover{
   box-shadow: 0 5px 15px rgba(72,146,241,0.829);
 }
 
-.decoration__img{
+.teambox__img{
   width: 180px;
 }
 
-.decoration__title{
+.teambox__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
 
-/*========== ACCESSORIES ==========*/
-.accessory__container{
+/*========== DOWNLOAD QUESTIONPAPER ==========*/
+.pyqpapers__container{
   grid-template-columns: repeat(2,1fr);
   padding-bottom: 2rem;
 }
 
-.accessory__content{
+.pyqpapers__content{
   position: relative;
   display: grid;
   padding: .25rem .75rem .75rem;
@@ -373,36 +373,36 @@ img{
   border-radius: 1rem;
 }
 
-.accessory__content:hover{
+.pyqpapers__content:hover{
   box-shadow: 0 5px 15px rgba(243, 0, 24, 0.89);
 }
 
-.accessory__img{
+.pyqpapers__img{
   width: 110px;
   justify-self: center;
   margin-bottom: .25rem;
 }
 
-.accessory__title, .accessory__category{
+.pyqpapers__title, .pyqpapers__category{
   text-align: center;
 }
 
-.accessory__title{
+.pyqpapers__title{
   font-size: var(--normal-font-size);
 }
 
-.accessory__category{
+.pyqpapers__category{
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color-light);
 }
 
-.accessory__preci{
+.pyqpapers__preci{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.accessory__button{
+.pyqpapers__button{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -579,25 +579,25 @@ img{
     padding: 0 2rem;
   }
 
-  .accessory__container{
+  .pyqpapers__container{
     grid-template-columns: repeat(3,224px);
     justify-content: center;
   }
 
-  .accessory__content{
+  .pyqpapers__content{
     padding: .5rem 1.5rem 1.5rem;
   }
 
-  .accessory__img{
+  .pyqpapers__img{
     width: 120px;
     margin-bottom: var(--mb-1);
   }
 
-  .accessory__title, .accessory__category{
+  .pyqpapers__title, .pyqpapers__category{
     text-align: initial;
   }
 
-  .accessory__button{
+  .pyqpapers__button{
     padding: .75rem;
   }
 
